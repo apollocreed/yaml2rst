@@ -1,0 +1,18 @@
+- id: yaml2rst
+  name: yaml 2 RST
+  description: export comment from yaml file to rst
+  require_serial: false
+  language: python
+  entry: yaml2rst
+  pass_filenames: false
+  types: []
+  files: \.y?ml$
+  exclude_types: [xml]
+  exclude: >
+    (?x)^(
+    .+.iml |
+    .+.gitignore |
+    .+\.idea\/.*$ |
+    \.pre-commit.*$ |
+    requirements.*$
+    )$
