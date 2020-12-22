@@ -1,0 +1,10 @@
+---
+repos:
+
+  - repo: https://github.com/apollocreed/yaml2rst
+    rev: develop
+    hooks:
+      - id: yaml2rst
+        args:
+          - ./.travis.yml
+          - test.md

@@ -1,4 +1,5 @@
 # test yaml2rst
+# test yaml2rst ::
 language: python
 dist: xenial
 python:
