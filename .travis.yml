@@ -1,5 +1,7 @@
-# test yaml2rst
-# test yaml2rst ::
+# collectd
+# ================
+#
+# Set this to ``true`` to install `collectd`::
 language: python
 dist: xenial
 python:

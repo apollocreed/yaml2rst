@@ -2,7 +2,7 @@
 repos:
 
   - repo: https://github.com/apollocreed/yaml2rst
-    rev: develop
+    rev: master
     hooks:
       - id: yaml2rst
         args:
